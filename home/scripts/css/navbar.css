@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+.maincontent{
+    padding-top: 5%;
+    padding-bottom: 10;
+    padding-left: 5%;
+    padding-right: 5%;
+    align-self: center;
+    align-content: center;
+    vertical-align: center;
+    max-width: 100vw;
+    align-content: space-between;
+    justify-content:space-around;
+}
+
+
+.topnav {
+  font-family: Ubuntu;
+  font-weight: bold;
+  overflow: hidden;
+  width: fit-content;
+}
+  
+
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: bold;
+  }
+  
+  .topnav a:hover {
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    color: #181818;
+  }

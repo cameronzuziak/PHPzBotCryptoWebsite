@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+
+html { 
+    background: url(images/background.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+.containerMain {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 5vh;
+    padding-bottom: 25vh;
+}
+
+
+.containerContent{
+    width: 60vw;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:20px 30px 20px 40px;
+    justify-content: space-between;
+}
+
+.aboutContent{
+    font-family: Ubuntu;
+    font-size: 16px; 
+}
+
+.Pic {
+    width:316px
+}
+
+.Pic img {
+    max-width:100%
+}
+
+.label1{
+    font-family: Ubuntu;
+    font-size: 16px;
+    padding-left: 10%;
+}
+
+
+.favoriteday{
+    font-family: Ubuntu;
+    font-size: 16px;
+    padding-left: 10%;
+}
+
+
+.coscForm {
+    width:50%
+}
+
+
+.inputContainer {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom:10px
+}
+
+
+.inputField {
+    font-family: Ubuntu;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(49, 49, 49);
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding:0 2% 0 4%;
+}
+
+
+.overallTitle {
+    font-family: Ubuntu;
+    font-size: 35px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom:15px;
+}
+
+
+.loginTitle {
+    font-family: Ubuntu;
+    font-size: 20px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom:15px;
+}
+
+
+.containerBtn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+.loginBtn {
+    font-family: Ubuntu;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #36fdf3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition:all .4s
+}
+
+
+.loginBtn:hover {
+    background:#333
+}
+
+
+@media (max-width: 1440px) {
+    .containerContent {
+        padding:35px 30px 35px 40px
+    }
+
+    .Pic {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        vertical-align: middle;
+        width:35%
+    }
+
+    .coscForm {
+        width:50%
+    }
+}
+
+
+@media (max-width: 992px) {
+    .containerContent {
+        padding:35px 30px 35px 40px;
+    }
+
+    .coscForm {
+        vertical-align: middle;
+        width:50%;
+    }
+}
+
+
+@media (max-width: 880px) {
+    .containerContent {
+        padding:35px 20px 35px 20px;
+    }
+
+    .Pic {
+        display:none
+    }
+
+    .coscForm {
+        vertical-align: middle;
+        width:100%;
+    }
+}
+
+
+
+
+@media (max-width: 576px) {
+    .containerContent {
+        padding:35px 20px 35px;
+    }
+}
+
+
+

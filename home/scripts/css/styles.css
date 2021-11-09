@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+html { 
+    background: url(images/background.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.containerMain {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    vertical-align: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 10vh;
+    padding-bottom: 35vh;
+
+}
+
+.containerLogin{
+    width: 960px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:35px 30px 35px 40px;
+    justify-content: space-between;
+}
+
+.titleContainer{
+    align-content: center;
+    padding-top: 15vh;
+}
+
+.loginForm {
+    width:50%
+}
+
+.inputContainer {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom:10px;
+}
+
+
+.inputField {
+    font-family: Ubuntu;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #666;
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding:0 2% 0 4%;
+}
+
+.mainTitle {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    vertical-align: center;
+    width: 100%;
+    padding-top: 10%;
+    padding-bottom:15px
+}
+
+
+.loginTitle {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 24px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom:15px
+}
+
+
+.containerBtn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:2%
+}
+
+.loginBtn {
+    font-family: Ubuntu;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #36fdf3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4%;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition:all .4s
+}
+
+.Pic {
+    width:316px
+}
+
+.Pic img {
+    max-width:100%
+}
+
+.loginBtn:hover {
+    background:#333;
+}
+
+
+@media (max-width: 1440px) {
+    .containerLogin {
+        padding:35px 30px 35px 40px;
+    }
+
+    .Pic {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        vertical-align: middle;
+        width:35%
+    }
+
+    .loginForm {
+        width:50%
+    }
+}
+
+@media (max-width: 992px) {
+    .containerLogin {
+        padding:35px 30px 35px 40px;
+    }
+
+    .Pic {
+        vertical-align: middle;
+        width:35%
+    }
+
+    .loginForm {
+        vertical-align: middle;
+        width:50%
+    }
+}
+
+@media (max-width: 768px) {
+    .containerLogin {
+        padding:35px 20px 35px 20px;
+    }
+
+    .Pic {
+        display:none
+    }
+
+    .loginForm {
+        vertical-align: middle;
+        width:100%
+    }
+}
+
+@media (max-width: 576px) {
+    .containerLogin {
+        padding:35px 20px 35px
+    }
+    .titleContainer .mainTitle{
+        width:65%;
+    }
+}
+
+.validate-input {
+    position:relative
+}
+

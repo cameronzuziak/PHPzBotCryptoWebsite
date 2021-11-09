@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box
+}
+
+html { 
+    background: url(images/background.gif) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  }
+
+.containerMain {
+    width: 100%;
+    height: 100vh;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-left: 20vw;
+    padding-right: 20vw;
+    padding-top: 5vh;
+    padding-bottom: 25vh;
+}
+
+.containerContent{
+    width: 960px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding:35px 30px 35px 40px;
+    justify-content: space-between;
+}
+
+
+.favoriteday{
+    font-family: Helvetica;
+    font-size: 16px;
+    padding-left: 10%;
+}
+
+#dayContainer{
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+}
+
+#colorContainer{
+    padding-left: 10%;
+    justify-content: center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.color{
+    width: 20%;
+}
+
+.coscForm {
+    width:50%
+}
+
+.inputContainer {
+    position: relative;
+    width: 100%;
+    z-index: 1;
+    margin-bottom:10px
+}
+
+.inputField {
+    font-family: Helvetica;
+    font-size: 15px;
+    line-height: 1.5;
+    color: rgb(49, 49, 49);
+    display: block;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border-radius: 25px;
+    padding:0 2% 0 4%;
+}
+
+.overallTitle {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 35px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom:15px;
+}
+
+.loginTitle {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 20px;
+    color: #333;
+    line-height: 1.2;
+    text-align: center;
+    width: 100%;
+    display: block;
+    padding-bottom:15px;
+}
+
+.containerBtn {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top:2%;
+}
+
+.loginBtn {
+    font-family: Helvetica;
+    font-weight: bold;
+    font-size: 15px;
+    line-height: 1.5;
+    color: #fff;
+    text-transform: uppercase;
+    width: 100%;
+    height: 50px;
+    border-radius: 25px;
+    background: #36fdf3;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4%;
+    -webkit-transition: all .4s;
+    -o-transition: all .4s;
+    -moz-transition: all .4s;
+    transition:all .4s
+}
+
+.Pic {
+    width:316px;
+}
+
+.Pic img {
+    max-width:100%;
+    height: 80vh;
+}
+
+.loginBtn:hover {
+    background:#333
+}
+
+
+@media (max-width: 1440px) {
+    .containerContent {
+        padding:35px 30px 35px 40px
+    }
+
+    .Pic {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        vertical-align: middle;
+        width:35%;
+    }
+
+    .coscForm {
+        width:50%
+    }
+}
+
+@media (max-width: 992px) {
+    .containerContent {
+        padding:35px 30px 35px 40px;
+    }
+
+    .Pic {
+        vertical-align: middle;
+        width:35%;
+        height: 70vh;
+    }
+
+    .coscForm {
+        vertical-align: middle;
+        width:50%;
+    }
+}
+
+@media (max-width: 768px) {
+    .containerContent {
+        padding:35px 20px 35px 20px;
+    }
+
+    .Pic {
+        display:none
+    }
+
+    .coscForm {
+        vertical-align: middle;
+        width:100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .containerContent {
+        padding:35px 20px 35px;
+    }
+}
+
+
+
